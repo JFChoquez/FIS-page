@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Navbar Logic (Mismo que el index) */
 .navbar { background-color: #fff; border-bottom: 2px solid #eee; }
 .navbar-brand { font-weight: 700; color: var(--fis-purple) !important; font-size: 1.5rem; margin-left: auto; }
 
