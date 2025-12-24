@@ -1,0 +1,80 @@
+@import url("./colors.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar & Logo (Mantenido con el fix de posición) */
+.navbar { background-color: #fff; border-bottom: 2px solid #eee; }
+.navbar-brand { font-weight: 700; color: var(--fis-purple) !important; font-size: 1.5rem; margin-left: auto; }
+
+/* Hero Section Mini */
+.malla-hero {
+    background: linear-gradient(135deg, #4b0a7d 0%, var(--fis-purple) 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Estilo de Tablas */
+.curriculum-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-bottom: 50px;
+}
+
+.table-custom-header {
+    background-color: var(--fis-purple) !important;
+    color: white !important;
+    vertical-align: middle;
+}
+
+.program-name {
+    font-weight: 700;
+    color: var(--fis-purple);
+    font-size: 1.1rem;
+}
+
+/* Enlaces de descarga */
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin: 4px;
+    background-color: var(--light-purple);
+    color: var(--fis-purple);
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+.btn-download:hover {
+    background-color: var(--fis-purple);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn-download i {
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+
+.section-header {
+    border-left: 5px solid var(--fis-purple);
+    padding-left: 15px;
+    margin-bottom: 25px;
+    color: var(--fis-purple);
+    font-weight: 700;
+}
+
+footer { background-color: var(--dark-bg); color: white; padding: 50px 0; }
+.social-icons a { color: white; font-size: 2rem; margin: 0 15px; transition: 0.3s; }
+.social-icons a:hover { color: var(--fis-purple); }

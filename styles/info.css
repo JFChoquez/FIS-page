@@ -1,0 +1,69 @@
+@import url("./colors.css");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar Logic (Mismo que el index) */
+.navbar { background-color: #fff; border-bottom: 2px solid #eee; }
+.navbar-brand { font-weight: 700; color: var(--fis-purple) !important; font-size: 1.5rem; margin-left: auto; }
+
+/* Hero Section Mini */
+.info-hero {
+    background: linear-gradient(45deg, #4b0a7d, var(--fis-purple));
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Estilo de Tablas de Autoridades */
+.authority-card {
+    background: #fff;
+    border: none;
+    border-left: 5px solid var(--fis-purple);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.table-authority {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+.table-authority th {
+    background-color: #fcfaff;
+    width: 35%;
+    color: var(--fis-purple);
+    font-weight: 600;
+}
+
+/* Tabla de Docentes */
+.teachers-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.table-custom-header {
+    background-color: var(--fis-purple) !important;
+    color: white !important;
+}
+
+.badge-category {
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+.bg-principal { background-color: #e8daff; color: #4b0a7d; }
+.bg-asociado { background-color: #d1ecf1; color: #0c5460; }
+.bg-auxiliar { background-color: #fff3cd; color: #856404; }
+
+footer { background-color: var(--dark-bg); color: white; padding: 50px 0; margin-top: 60px; }
+.social-icons a { color: white; font-size: 2rem; margin: 0 15px; transition: 0.3s; }
+.social-icons a:hover { color: var(--fis-purple); }
