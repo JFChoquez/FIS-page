@@ -50,7 +50,7 @@ body {
 .hero-section {
     height: 70vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                url("https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/555633256_31368526086124820_1841014789114644030_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=uiOhbDrXWjIQ7kNvwEDW2QJ&_nc_oc=AdnxZA12JhV8EleTPbvRYJvOjgZk9dY7iyGd3IA5C8nYCI4YSm4LMGNj6h_6WmyBDFa1I8Q3KaxDHbfdtdrBfB7b&_nc_zt=23&_nc_ht=scontent-lim1-1.xx&_nc_gid=-bbAtZ9cRHM_83qX9J235w&oh=00_AflWogvhoR6CWsTMptjJ475DZJ5jWJCDTUrB-H6xTga1RA&oe=695100A7");
+                url("../assets/fis.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
